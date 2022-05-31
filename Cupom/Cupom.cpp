@@ -11,17 +11,17 @@ Cupom::Cupom(string id, string des, int qntd, float preco)
     setDes(des);
     setQntd(qntd);
     setPreco(preco);
-};
+}
 
 void Cupom::setId(string id)
 {
     this -> id = id;
-}
+};
 
 void Cupom::setDes(string des)
 {
     this -> des = des;
-};
+}
 
 void Cupom::setQntd(int qntd)
 {
