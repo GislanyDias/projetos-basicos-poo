@@ -8,6 +8,8 @@ using std::string;
 class Pessoa{
   
 public:
+
+  Pessoa(){};
   Pessoa(string nome, int idade, double altura);
 
   void setNome(string nome) {this -> nome = nome;}
